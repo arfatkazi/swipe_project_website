@@ -857,6 +857,7 @@ li {
 }
 /* end of virtual-section-container */
 
+/* footer */
 #footer {
 	/* background-color: red; */
 	min-height: 100vh;
@@ -882,6 +883,8 @@ li {
 	margin-bottom: 1vw;
 	margin-top: 0.6vw;
 }
+
+/* footer */
 
 @media (max-width: 600px) {
 	html,
@@ -1114,9 +1117,7 @@ li {
 
 	/* integration section */
 	.integration-section {
-		
 		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 100%);
-		
 	}
 
 	.integration-section .two-column {
@@ -1263,48 +1264,179 @@ li {
 		margin-top: 3rem;
 		margin-bottom: 3rem;
 	}
-
-	.why-swipe .section-container > p {
-		font-size: 4vw;
-		font-weight: bold;
-	}
-	.why-swipe .section-container > h2 {
-		font-size: 7vw;
-		font-weight: bold;
-		margin-top: 10vw;
-	}
 	.why-swipe .card-container {
 		display: flex;
-		margin-top: 15vw;
-		justify-content: space-evenly;
+		flex-direction: column;
+		justify-content: center;
 		align-items: center;
+		width: 100%;
+	}
+
+	.why-swipe .card-container .card .icon {
+		margin-top: 12vw;
 	}
 
 	.why-swipe .card-container .card {
-		width: 26vw;
-		padding: 0 var(--spacing-sm) 0 0;
-		margin: 0 var(--spacing-sm) 0 0;
-		box-sizing: border-box;
-		background-color: red;
+		margin-right: 30vw;
 	}
 
-	.why-swipe .card-container .card > img {
-		width: 15vw;
-		margin: 0;
-		padding: 0;
+	.why-swipe p {
+		font-size: 3.5vw;
+		padding-bottom: 10vw;
 	}
 
-	.why-swipe .card-container .card > img:nth-child(3) {
-		background-color: purple;
+	.why-swipe h2 {
+		font-size: 5vw;
+		padding-bottom: 8vw;
 	}
 
-	.why-swipe .card-container .card > h3 {
-		margin: 0;
-		padding: 0;
+	.why-swipe .card-container .card h3 {
+		font-size: 4.5svw;
+	}
+
+	.why-swipe .card-container .card p {
+		font-size: 3vw;
+		min-width: 110vw;
+		max-width: 200vw;
+		line-height: 6vw;
+		padding-right: 60vw;
 	}
 
 	/* <!-- end of why swipe --> */
+
+	/* <!--  global-section --> */
+
+	.global-section .two-column .column-left .subtitle2 {
+		font-size: 5vw;
+		padding-top: 20vw;
+	}
+
+	.global-section .two-column .column-left h2 {
+		font-size: 3.7vw;
+	}
+
+	.global-section .column-left a {
+		color: var(--blue-1);
+	}
+
+	.global-section .column-left a:hover {
+		color: var(--bg-light);
+	}
+
+	.global-section .card-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.global-section .card-container .card {
+		width: 25%;
+		box-sizing: border-box;
+
+		margin-top: -1rem;
+	}
+
+	.global-section .card-container .card h3 {
+		font-size: 4vw;
+		margin-top: 10vw;
+	}
+
+	.global-section .card-container .card .secondary-text {
+		width: 100vw;
+		font-size: 3.5vw;
+	}
+
+	/* <!-- end of global-section --> */
+
+	/* virtual-section-container */
+	.virtual-section-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 2vw;
+		margin-bottom: 10vw;
+	}
+
+	.virtual-section-container .two-column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.virtual-section-container .column-left .subtitle2 {
+		font-size: 6vw;
+	}
+
+	.virtual-section-container .column-left h2 {
+		font-size: 5vw;
+		margin-top: 4vw;
+	}
+	.virtual-section-container .column-left p {
+		font-size: 5vw;
+		margin-top: 4vw;
+		line-height: 8vw;
+		width: 90vw;
+	}
+
+	.virtual-section-container .primary-btn {
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		background-color: var(--purple-1);
+	}
+
+	.virtual-section-container .primary-btn:hover {
+		background-color: var(--purple-2);
+	}
+
+	.virtual-section-container .column-right .card-top > img {
+		width: 50vw;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+	}
+	.virtual-section-container .column-right .card-top .avatars {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.virtual-section-container .column-right .card-top .avatars > img {
+		width: 30vw;
+		padding: 4vw;
+	}
+
+	.virtual-section-container .card-bottom {
+		margin-top: 10vw;
+	}
+
+	/* end of virtual-section-container */
 }
+
+/* footer */
+#footer {
+	/* background-color: red; */
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 5rem;
+	margin-bottom: 10rem;
+}
+
+.box h3 {
+	font-size: 5vw;
+	margin-bottom: 4vw;
+}
+.box1 {
+	padding-top: 1.9vw;
+}
+
+.box h6 {
+	line-height: 4vh;
+}
+.box h5 {
+	font-size: 5vw;
+}
+
+/* footer */
 
 /* @media (min-width: 768px) {
 }
