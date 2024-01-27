@@ -56,38 +56,29 @@ const signin = () => {
 
 // Darkmode Lightmode
 
-
-
-
 //colorchange
 
-const colorChangeBlackMode = () => {
-	navbar.forEach((nav) => {
-		nav.addEventListener("mouseenter", () => {
-				
+// const colorChangeBlackMode = () => {
+// 	navbar.forEach((nav) => {
+// 		nav.addEventListener("mouseenter", () => {
 
-					nav = navbar[0].style.color = "red"
-					nav = navbar[1].style.color = "cyan"
-					nav = navbar[2].style.color = "#00f752"
-					nav = navbar[3].style.color = "#ff00ff"
-					nav = navbar[4].style.color = "#ff7b00"
-				
-			
-		})
+// 					nav = navbar[0].style.color = "red"
+// 					nav = navbar[1].style.color = "cyan"
+// 					nav = navbar[2].style.color = "#00f752"
+// 					nav = navbar[3].style.color = "#ff00ff"
+// 					nav = navbar[4].style.color = "#ff7b00"
 
-		nav.addEventListener("mouseleave", () => {
-			nav = navbar[0].style.color = "white"
-			nav = navbar[1].style.color = "white"
-			nav = navbar[2].style.color = "white"
-			nav = navbar[3].style.color = "white"
-			nav = navbar[4].style.color = "white"
-		})
-	})
-}
+// 		})
 
-
-
-
+// 		nav.addEventListener("mouseleave", () => {
+// 			nav = navbar[0].style.color = "white"
+// 			nav = navbar[1].style.color = "white"
+// 			nav = navbar[2].style.color = "white"
+// 			nav = navbar[3].style.color = "white"
+// 			nav = navbar[4].style.color = "white"
+// 		})
+// 	})
+// }
 
 colorChangeBlackMode()
 // end of colorchange

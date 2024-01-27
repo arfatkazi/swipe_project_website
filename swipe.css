@@ -1421,7 +1421,7 @@ li {
 	}
 
 	.box h3 {
-		font-size: 5vw;
+		font-size: 8vw;
 		margin-bottom: 4vw;
 	}
 	.box1 {
@@ -1430,9 +1430,17 @@ li {
 
 	.box h6 {
 		line-height: 4vh;
+		font-size: 5vw;
+	}
+
+	.box h6:hover {
+		color: #6962f7;
+		cursor: pointer;
 	}
 	.box h5 {
-		font-size: 5vw;
+		font-size: 6vw;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
 	}
 
 	/* footer */
